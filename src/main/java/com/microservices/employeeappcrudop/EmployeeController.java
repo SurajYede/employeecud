@@ -15,7 +15,7 @@ public class EmployeeController {
 
     @GetMapping("/getMsg")
     public String getHelloWorld() {
-        return "Hello World";
+        return "WelCome World";
     }
 
     @PostMapping("/createEmp")
